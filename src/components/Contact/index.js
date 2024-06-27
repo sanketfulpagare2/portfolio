@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+import { Snackbar, SnackbarContent } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -120,28 +120,37 @@ const ContactButton = styled.input`
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
-`
-
-
+`;
 
 const Contact = () => {
-
-  //hooks
-  const [open, setOpen] = React.useState(false);
+  // hooks
+  const [open, setOpen] = useState(false);
+  const [error, setError] = useState('');
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formData = new FormData(form.current);
+    const from_email = formData.get('from_email');
+    const from_name = formData.get('from_name');
+    const subject = formData.get('subject');
+    const message = formData.get('message');
+
+    if (!from_email || !from_name || !subject || !message) {
+      setError('All fields are required.');
+      setOpen(true);
+      return;
+    }
+
     emailjs.sendForm('service_d3bb9er', 'template_qjrky7k', form.current, '9DNWpscy033IBLHoS')
       .then((result) => {
+        setError('');
         setOpen(true);
         form.current.reset();
       }, (error) => {
         console.log(error.text);
       });
-  }
-
-
+  };
 
   return (
     <Container>
@@ -159,13 +168,16 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+          onClose={() => setOpen(false)}
+        >
+          <SnackbarContent
+            message={error || "Email sent successfully!"}
+            style={{ backgroundColor: error ? '#f44336' : '#4caf50' }} // Red for error, green for success
+          />
+        </Snackbar>
       </Wrapper>
     </Container>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
