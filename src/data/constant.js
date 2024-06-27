@@ -344,7 +344,7 @@ export const Bio = {
         "Node Js",
         "Express Js",
         "Redux",
-        "NodeMailer",
+        
       ],
       category: "web app",
       github: "https://github.com/rishavchanda/Project-Management-App",
