@@ -205,7 +205,7 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <StyledVideo src={`${process.env.PUBLIC_URL}/vid1.mp4`}
+                    <StyledVideo src={project?.video}
                           controls={false}
                           autoPlay={true}
                           loop={true}

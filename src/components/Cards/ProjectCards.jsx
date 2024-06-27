@@ -8,9 +8,9 @@ const Button = styled.button`
     padding: 10px;
     background-color: ${({ theme }) => theme.white};
     color: ${({ theme }) => theme.text_black};
-    font-size: 14px;
-    font-weight: 700;
-    border: none;
+    t: 700;
+    border: nonfont-size: 14px;
+    font-weighe;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.8s ease-in-out;
