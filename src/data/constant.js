@@ -244,7 +244,7 @@ export const Bio = {
       skills: [
         "Android"," Studio" ,"REST APIs","Java","XML",
       ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+      doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-e552a.appspot.com/o/iBase%20Certificate.jpeg?alt=media&token=5064a044-0d6e-419b-9951-db0f3afa998c",
     },
   ];
   
