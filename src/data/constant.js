@@ -253,7 +253,7 @@ export const Bio = {
       id: 0,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
       school: "Smt. Kashibai Navle College Of Engineering ,Sinhgad Pune",
-      date: "Oct 2021 - Sep 2025",
+      date: "2021 - 2024",
       grade: "7.98 CGPA",
       desc: "I completed Bachelor's degree in Electronics And Telecommunication Engineering at Smt. Kashibai Navle College Of Engineering ,Sinhgad Pune. Having a CGPA of 7.98. ",
       degree: "Bachelor of Engineering - BE,Electronics And Telecommunication",
@@ -262,7 +262,7 @@ export const Bio = {
       id: 1,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "Jaihind Junior High School,Dhule",
-      date: "Apr 2019 - Apr 2025",
+      date: "2019 - 2020",
       grade: "68.97%",
       desc: "I completed my class 12 high school education atJaihind Junior High School,Dhule, where I studied Science with Electronics.",
       degree: "State Board, Science with Electronics",
@@ -271,7 +271,7 @@ export const Bio = {
       id: 2,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "Raje Chattrapati Sambhaji Vidyalaya,Dhule",
-      date: "Apr 2017 - Apr 2019",
+      date: "2017 - 2028",
       grade: "84.00%",
       desc: "I completed my class 10 education at Raje Chattrapati Sambhaji Vidyalaya.",
       degree: "State Board",
@@ -282,7 +282,7 @@ export const Bio = {
     {
       id: 0,
       title: "Food Ordering Web",
-      date: "Jun 2023 - Jul 2023",
+      date: "2023",
       video:"https://firebasestorage.googleapis.com/v0/b/portfolio-e552a.appspot.com/o/vid1.mp4?alt=media&token=85f2e049-79c1-4c48-a57f-a89da2455907",
       description:
         "Developed a user-friendly food ordering website using modern technologies such as React.js, Redux, Node.js, and Tailwind CSS.Implemented dynamic user interfaces with configurable options to enhance user experience.- Integrated advanced features like cart functionality for seamless order management. ",
@@ -332,7 +332,7 @@ export const Bio = {
     {
       id: 1,
       title: "NetflixGPT",
-      date: "Oct 2022 - Present",
+      date: "2023-2024",
       video:"https://firebasestorage.googleapis.com/v0/b/portfolio-e552a.appspot.com/o/vid2.mp4?alt=media&token=b4a5c095-a6d3-4b3d-bca0-7a33c3506170",
       description:
         "Created a captivating frontend website inspired by Netflix, leveraging React.js, Redux, and Tailwind CSS.Implemented innovative features including GPT-powered movie recommendation search to enhance user engagement.Incorporated Firebase authentication and multilingual support for personalized user experiences ",
@@ -353,7 +353,7 @@ export const Bio = {
     {
       id: 2,
       title: "Movie App (In-Progress)",
-      date: "Oct 2022 - Present",
+      date: "2024 - Present",
       video:"https://firebasestorage.googleapis.com/v0/b/portfolio-e552a.appspot.com/o/vid2.mp4?alt=media&token=b4a5c095-a6d3-4b3d-bca0-7a33c3506170",
       description:
         "Created a captivating frontend website inspired by Netflix, leveraging React.js, Redux, and Tailwind CSS.Implemented innovative features including GPT-powered movie recommendation search to enhance user engagement.Incorporated Firebase authentication and multilingual support for personalized user experiences ",
