@@ -7,7 +7,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/sanketfulpagare2",
     resume:
-      "https://drive.google.com/file/d/15Oje9pOJx8biNNV53-eQJndukzkcLSRh/view?usp=sharing",
+      "https://drive.google.com/file/d/1ygKp2Kaoo0iuDm1lJKO1tzZvWtaTp9wU/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sanket-fulpagare",
    
     insta: "https://www.instagram.com/sanketfulpagare32/",
@@ -254,7 +254,7 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
       school: "Smt. Kashibai Navle College Of Engineering ,Sinhgad Pune",
       date: "Oct 2021 - Sep 2025",
-      grade: "7.8 CGPA",
+      grade: "7.98 CGPA",
       desc: "I completed Bachelor's degree in Electronics And Telecommunication Engineering at Smt. Kashibai Navle College Of Engineering ,Sinhgad Pune. Having a CGPA of 7.98. ",
       degree: "Bachelor of Engineering - BE,Electronics And Telecommunication",
     },
@@ -300,7 +300,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/sanketfulpagare2/namaste-react",
-      webapp: "https://trackify.duckdns.org",
+      webapp: "https://namaste-react-lemon.vercel.app/",
     },
     // {
     //   // id: 0,
@@ -348,7 +348,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
+      webapp: "https://netflix-gpt-eight-inky.vercel.app/",
     },
     {
       id: 2,
@@ -365,11 +365,11 @@ export const Bio = {
         "Node Js",
         "Express Js",
         "Redux",
-        "NodeMailer",
+      
       ],
       category: "android app",
-      github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
+      github: "https://github.com/sanketfulpagare2/movie-info-app",
+      webapp: "https://github.com/sanketfulpagare2/movie-info-app",
     },
     
     
